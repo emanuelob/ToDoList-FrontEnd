@@ -8,11 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors: {
+        branco: '#fefefe',
+        terracota: '#de6c5c',
+        verdepastel: '#c6e5b1',
+        marrompastel: '#a68069'
+      }
+    },
+    fontFamily: {
+      'montserrat': ['Montserrat', 'sans-serif'],
+      'patrick-hand': ['Patrick Hand', 'cursive'],
     },
   },
   plugins: [],
